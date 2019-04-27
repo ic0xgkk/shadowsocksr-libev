@@ -1,6 +1,15 @@
-# shadowsocks-libev
+# shadowsocksr-libev
 
 ## Intro
+
+备份用的ssr。这是最后版本的ssr，但是文档是ss的而已。
+
+只有这个版本能用（master）
+
+务必使用编译进行安装，`librehat/shadowsocks`中的是ss并不是ssr，亲测服务端不允许原生ss时是无法使用的。
+
+对于Fedora 29等自带GCC 8+的，可能会出现编译失败的问题。只能降级安装gcc解决，没有其他办法(不修代码的话)
+
 
 [Shadowsocks-libev](http://shadowsocks.org) is a lightweight secured SOCKS5
 proxy for embedded devices and low-end boxes.
